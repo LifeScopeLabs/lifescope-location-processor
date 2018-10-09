@@ -1,0 +1,21 @@
+{
+  "mongodb": {
+	"address": "mongodb://127.0.0.1",
+	"options": {
+	  "poolSize": 100
+	}
+  },
+
+  "aws": {
+	"credentials": {
+	  "AWSAccessKeyId": null,
+	  "AWSSecretKey": null
+	},
+
+	"s3": {
+	  "locations": {
+		"bucket_name": null
+	  }
+	}
+  }
+}
